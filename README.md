@@ -29,6 +29,7 @@ graph TD
 
 ## Project Structure
 
+```
 data-pipeline-aws-terraform/
 ├── terraform/                 # Infrastructure code
 │   ├── main.tf
@@ -52,7 +53,7 @@ data-pipeline-aws-terraform/
 ├── .gitignore
 ├── README.md
 └── LICENSE
-
+```
  ## How to Deploy
 
  1. Configure AWS CLI (once)
