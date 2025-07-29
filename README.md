@@ -76,3 +76,7 @@ aws s3 cp ../data/sample.csv s3://<the bucket name>/
 4. Lambda will be triggered automatically
 
 Check the logs in CloudWatch to debug or monitor the execution.
+
+
+## Authored By me 
+N'hésitez pas à me contacter sur LinkedIn en cas de problème ou piste d'amélioration.

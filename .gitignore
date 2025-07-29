@@ -1,0 +1,61 @@
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.env
+.env*
+venv/
+.envrc
+.env.local
+*.sqlite3
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+.cache/
+
+# Jupyter notebooks
+.ipynb_checkpoints
+
+# Pytest / Coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.pytest_cache/
+
+# VS Code
+.vscode/
+.code-workspace
+
+# Mac & OS files
+.DS_Store
+Thumbs.db
+
+# --- TERRAFORM ---
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+terraform.tfvars.json
+plan.out
+
+# --- LAMBDA DEPLOYMENTS ---
+lambda_package.zip
+*.zip
+lambda/__pycache__/
+lambda/*.pyc
+
+# --- DATA / OUTPUT ---
+data/*.csv
+data/*.parquet
+output/
+logs/
+tmp/
